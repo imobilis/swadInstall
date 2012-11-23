@@ -1,0 +1,17 @@
+SWADInstall Changelog
+Last updated: 23 nov 2012
+
+=======================================
++ Added feature, Improvement
+- Bugfix, something removed
+* Information 
+! Important
+=======================================
+
+== First steps, 23 nov 2012
+! Work started! :D
++ Basic multilanguage support.
++ Basic OS detection
++ Basic completed step locking
+* Added LICENSE, README and CHANGELOG files.
+* Created file structure.
