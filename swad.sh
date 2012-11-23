@@ -21,3 +21,24 @@
 ##
 ###############################################################################
 
+# Sourcing
+. ./swad.setupcore.sh
+
+# First: choose language
+langsel
+. ./language/lang.$LANG_ID
+
+# Clear and greet
+clear
+echo $LANG_GREETING
+
+
+OS=$(lsb_release -si)
+
+
+if [ ! -e ./lock_prerequisites ]; then
+. ./modules/swad.prerequisites.sh
+touch ./lock_prerequisites
+fi
+
+
