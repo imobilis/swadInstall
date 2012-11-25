@@ -23,4 +23,17 @@
 
 # SWADInstall Fichero de idioma Español
 
+## General
 LANG_GREETING="¡Bienvenido/a a la instalación de OpenSWAD!"
+LANG_INTRO="Algunos comandos necesitan privilegios de root, y utilizan la orden sudo.\nSe le solicitará que introduzca su contraseña de usuario a lo largo del proceso de instalación.\nPor favor, siga las instrucciones específicas de instalación para cada paquete."
+LANG_PRESSANYKEY="Presione cualquier tecla para continuar"
+
+## Prerequisites Module
+LANG_INSTALL_BUILD="Instalando compilador/enlazador de C/C++..."
+LANG_INSTALL_TOOLS="Instalando herramientas del sistema..."
+LANG_INSTALL_MYSQL="Instalando MySQL..."
+LANG_INSTALL_APACHE="Instalando Apache..."
+LANG_INSTALL_LIBJPEG="Instalando libjpeg..."
+LANG_INSTALL_CMAKE="Instalando CMake..."
+LANG_INSTALL_OPENCV="Instalando OpenCV..."
+LANG_INSTALL_GIT="Instalando git..."

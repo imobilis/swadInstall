@@ -23,4 +23,17 @@
 
 # SWADInstall English Language File
 
+## General
 LANG_GREETING="Welcome to OpenSWAD Setup!"
+LANG_INTRO="Some commands require root permissions and use the 'sudo' command.\nYou'll be prompted to type your user password throughout system install.\nPlease, follow package-specific build/install steps."
+LANG_PRESSANYKEY="Please, press any key to continue..."
+
+## Prerequisites Module
+LANG_INSTALL_BUILD="Installing C/C++ compiler toolchains..."
+LANG_INSTALL_TOOLS="Installing system tools..."
+LANG_INSTALL_MYSQL="Installing MySQL..."
+LANG_INSTALL_APACHE="Installing Apache..."
+LANG_INSTALL_LIBJPEG="Installing libjpeg..."
+LANG_INSTALL_CMAKE="Installing CMake..."
+LANG_INSTALL_OPENCV="Installing OpenCV..."
+LANG_INSTALL_GIT="Installing git..."
