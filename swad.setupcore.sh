@@ -21,14 +21,16 @@
 ##
 ###############################################################################
 
-#Global Variables
+# -- Global Variables --
 LANG_ID="UNKNOWN"
 OS="UNKNOWN"
 
+#Configuration load
+. ./swad.setupcfg.sh
 
-#Global Functions
+# -- Global Functions --
 
-#Language selector
+#Language selector and menu
 langsel(){
 	langselmenu
 	
@@ -36,7 +38,6 @@ langsel(){
     	LANG_ID="NOTFOUND"
     	langsel
 	fi
-
 }
 
 langselmenu(){
@@ -48,3 +49,14 @@ langselmenu(){
     echo ""
     read -p "Selection / Selección: " LANG_ID
 }
+
+# Setup bootstrap tasks
+bootstrap(){
+    OS=$(lsb_release -si)
+	mkdir ./tmp
+	#more bootstrap tasks to come...
+}
+
+
+## Function calls
+bootstrap
