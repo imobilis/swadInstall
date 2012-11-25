@@ -21,10 +21,10 @@
 ##
 ###############################################################################
 
-# Sourcing
+# Load Core script
 . ./swad.setupcore.sh
 
-# First: choose language
+# Language choosing
 langsel
 . ./language/lang.$LANG_ID
 
@@ -32,13 +32,15 @@ langsel
 clear
 echo $LANG_GREETING
 
+# Intro text, and wait for keypress to continue
+echo $LANG_INTRO
+read -p $LANG_PRESSANYKEY -s1 PHONY
 
-OS=$(lsb_release -si)
 
-
-if [ ! -e ./lock_prerequisites ]; then
-. ./modules/swad.prerequisites.sh
-touch ./lock_prerequisites
+# Module calls
+if [ ! -e ./tmp/lock_prerequisites ]; then
+    . ./modules/swad.prerequisites.sh
+    touch ./tmp/lock_prerequisites
 fi
 
 
