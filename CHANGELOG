@@ -1,5 +1,5 @@
 SWADInstall Changelog
-Last updated: 23 nov 2012
+Last updated: 25 nov 2012
 
 =======================================
 + Added feature, Improvement
@@ -7,6 +7,12 @@ Last updated: 23 nov 2012
 * Information 
 ! Important
 =======================================
+
+== Working on modules, 25 nov 2012
++ Language definitions for Prerequisites module.
++ Prerequisites module logic.
++ Added intro text.
+* Installing several Virtual Machines for testing purposes (One CentOS, one Debian, and one Ubuntu)
 
 == First steps, 23 nov 2012
 ! Work started! :D
