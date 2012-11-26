@@ -8,6 +8,10 @@ Last updated: 25 nov 2012
 ! Important
 =======================================
 
+== Test machines, 26 nov 2012
++ Ubuntu, Debian and CentOS base Machines installed.
+* Test machines Initial state snapshots created.
+
 == Working on modules, 25 nov 2012
 + Language definitions for Prerequisites module.
 + Prerequisites module logic.
